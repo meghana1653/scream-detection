@@ -1,0 +1,8 @@
+numpy
+librosa
+scikit-learn
+tensorflow
+sounddevice
+matplotlib
+soundfile
+ipython  # for display.Audio

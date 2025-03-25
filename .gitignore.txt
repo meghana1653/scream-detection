@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.h5
+*.wav
+Assets/testing/recorded_audio.wav
+.env/
+.vscode/
+.ipynb_checkpoints/
+models/
