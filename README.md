@@ -4,11 +4,18 @@ This project detects human screams in audio clips using machine learning techniq
 
 
 
-Project Structure
+scream-detection/
+├── Assets/                      # Folder containing audio data
+│   ├── positive/                # Audio files with human screams
+│   ├── negative/                # Audio files without screams (e.g., background noise, talking)
+│   └── testing/                 # Audio files used for testing or recorded clips
+│
+├── scream_detection.py         # Main Python script for training, prediction, and recording
+├── requirements.txt            # List of Python dependencies
+├── README.md                   # Project documentation and instructions
+├── .gitignore                  # Specifies files/folders to ignore in Git
 
-scream-detection/ ├── Assets/ │ ├── positive/ # Audio files with human screams │ ├── negative/ # Audio files without screams (background noise, talking, etc.) │ └── testing/ # Test audio files or recorded clips ├── scream_detection.py # Main script with training, prediction, and recording code ├── requirements.txt # List of dependencies ├── README.md # Project documentation ├── .gitignore # Files/folders to ignore in Git └── models/ # Optional folder to save trained models
 
----
 
 Features
 
@@ -18,7 +25,7 @@ Features
 - Visualizes model accuracy and loss over epochs
 - Alerts if scream is detected in audio
 
----
+
 
 Installation
 
