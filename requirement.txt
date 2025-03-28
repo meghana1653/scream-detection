@@ -1,7 +1,9 @@
 streamlit
 librosa==0.9.1
 numpy
-
+import streamlit as st
+import librosa
+st.write("Librosa imported successfully!")
 scikit-learn
 tensorflow
 sounddevice
